@@ -1,7 +1,7 @@
 # sonarqube-developer-azure-aci
 
-Hack for sonarqube-9 docker image which allows it to be deployed to the Azure Container Instances.
-Tweak elasticsearch for skipping the check for max_map_count: 
+Hack for sonarqube-9 docker image which allows it to be deployed to the Azure Container Instances.  
+Tweak elasticsearch in order to skip the check for max_map_count: 
 
 ```
 ERROR: [1] bootstrap checks failed
